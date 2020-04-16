@@ -15,7 +15,7 @@ body{
 /*layout header*/
 .titolo{
   background-color: white;
-  height: 221px;
+  height: 300px;
   background-image: url(../img/background-header.jpg);
   position: relative;
   border: 13px solid white;
@@ -28,6 +28,14 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.testo h1{
+  padding: 5px;
+  border: 5px solid white;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+/*layout menu*/
 .menu{
   background-color: #504741;
 }
@@ -50,10 +58,10 @@ body{
   text-decoration: none;
   color: white;
 }
-/*layout blocchi nel main*/
+
+/*layout main*/
 main{
   margin: 0.5% 0;
-
 }
 .col{
   float: left;
@@ -68,7 +76,9 @@ main{
 }
 .col-left i{
   float: left;
-  font-size: 50px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  background-color: yellow;
 }
 .col-middle{
   width: 50%;
@@ -80,6 +90,13 @@ main{
 .col-middle .box, .col-right .box{
   padding: 10px;
 }
+h4{
+  font-size: 28px;
+}
+.col-middle h4, .col-right h4{
+  margin-bottom: 15px;
+}
+/*layout box*/
 .box{
   width: 100%;
   background-color: white;
@@ -87,6 +104,9 @@ main{
 }
 .box:last-child{
   margin-bottom: 0;
+}
+.col-left .box p{
+  margin-bottom: 10px;
 }
 /*footer in fondo alla pagina*/
 main::after {
@@ -112,22 +132,17 @@ footer p{
   display: inline-block;
   font-size: 50px;
   color: grey;
-
 }
 .logo-left{
   width: 33%;
-
 }
 .logo-middle{
   width: 33%;
-
-
 }
 .logo-right{
   width: 33%;
 }
-h4{
-  font-size: 22px;
+footer p{
+  font-style: italic;
+  color: lightgray;
 }
-.col-middle h4, .col-right h4{
-  margin-bottom: 15px;
