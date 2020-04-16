@@ -77,6 +77,9 @@ main{
 .col-right{
   width: 20%;
 }
+.col-middle .box, .col-right .box{
+  padding: 10px;
+}
 .box{
   width: 100%;
   background-color: white;
@@ -100,28 +103,31 @@ footer p{
 }
 .logo-container{
   padding:5% 0;
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
 .logo{
   padding-bottom: 5px;
   display: inline-block;
+  font-size: 50px;
+  color: grey;
+
 }
 .logo-left{
-  font-size: 50px;
   width: 33%;
-
-
 
 }
 .logo-middle{
-  font-size: 50px;
   width: 33%;
 
 
 }
 .logo-right{
-  font-size: 50px;
   width: 33%;
-
-
-
 }
+h4{
+  font-size: 22px;
+}
+.col-middle h4, .col-right h4{
+  margin-bottom: 15px;
