@@ -1,0 +1,127 @@
+/*Reset*/
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../img/sfondo.png);
+}
+.container{
+  width: 55%;
+  margin: auto;
+  margin-top: 1.2%;
+}
+/*layout header*/
+.titolo{
+  background-color: white;
+  height: 221px;
+  background-image: url(../img/background-header.jpg);
+  position: relative;
+  border: 13px solid white;
+  text-align: center;
+}
+.testo{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu{
+  background-color: #504741;
+}
+.menu ul{
+  top:50%;
+  list-style-type: none;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.menu li{
+  display: inline-block;
+  padding: 10px 12px;
+  border-right: 1px solid black;
+}
+.menu li:last-child{
+  border-right: 0;
+}
+.menu a{
+  text-decoration: none;
+  color: white;
+}
+/*layout blocchi nel main*/
+main{
+  margin: 0.5% 0;
+
+}
+.col{
+  float: left;
+  margin: 0.5% 0;
+}
+.col-left{
+  width: 20%;
+}
+.col-left a{
+  text-decoration: none;
+  color: green;
+}
+.col-left i{
+  float: left;
+  font-size: 50px;
+}
+.col-middle{
+  width: 50%;
+  margin: 0.5% 5%;
+}
+.col-right{
+  width: 20%;
+}
+.box{
+  width: 100%;
+  background-color: white;
+  margin-bottom: 10%
+}
+.box:last-child{
+  margin-bottom: 0;
+}
+/*footer in fondo alla pagina*/
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*layout footer*/
+footer{
+  background-color: white;
+}
+footer p{
+  text-align: center;
+}
+.logo-container{
+  padding:5% 0;
+}
+.logo{
+  padding-bottom: 5px;
+  display: inline-block;
+}
+.logo-left{
+  font-size: 50px;
+  width: 33%;
+
+
+
+}
+.logo-middle{
+  font-size: 50px;
+  width: 33%;
+
+
+}
+.logo-right{
+  font-size: 50px;
+  width: 33%;
+
+
+
+}
