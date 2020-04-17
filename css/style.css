@@ -19,9 +19,10 @@ body{
   background-image: url(../img/background-header.jpg);
   position: relative;
   border: 13px solid white;
-  text-align: center;
 }
 .testo{
+  width: 80%;
+  text-align: center;
   color: white;
   position: absolute;
   top: 50%;
@@ -29,10 +30,12 @@ body{
   transform: translate(-50%, -50%);
 }
 .testo h1{
-  padding: 5px;
+  display: inline-block;
+  padding: 10px;
   border: 5px solid white;
   margin-bottom: 30px;
   font-size: 50px;
+  letter-spacing: 10px;
 }
 
 /*layout menu*/
@@ -40,16 +43,20 @@ body{
   background-color: #504741;
 }
 .menu ul{
-  top:50%;
   list-style-type: none;
   width: 80%;
   margin: auto;
   text-align: center;
+  font-size:0;
+}
+.menu li:hover{
+  background-color: black;
 }
 .menu li{
   display: inline-block;
   padding: 10px 12px;
   border-right: 1px solid black;
+  font-size: 20px;
 }
 .menu li:last-child{
   border-right: 0;
@@ -100,7 +107,8 @@ h4{
 .box{
   width: 100%;
   background-color: white;
-  margin-bottom: 10%
+  margin-bottom: 10%;
+  border-radius: 5px;
 }
 .box:last-child{
   margin-bottom: 0;
